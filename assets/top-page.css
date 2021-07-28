@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.contents {
+	width: 90%;
+	max-width: 640px;
+	text-align: center;
+	background: 0 0 #fafafa no-repeat;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+  margin: 0 auto;
+}
+.contents .copyright {
+	font-size: 0.75rem;
+	color: #aaa;
+}
+
+.logoimg{
+  width: 300px;
+  height:300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.memberimg{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+hr{
+  margin-top: 1.5em;
+}
+.infomation {
+  border-top: 1px solid #ccc;
+  height: 2px;
+  text-align: center;
+  overflow: visible;
+  background-color: #333333;
+}
+.infomation::after {
+  content: "Infomation";
+  background-color: #fafafa;
+  color: #333333;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  top: -1em;
+  padding: 0 1em;
+}
+
+
+.copyright {
+  border-top: 1px solid #ccc;
+  height: 2px;
+  text-align: center;
+  overflow: visible;
+  background-color: #333333;
+}
+.copyright::after {
+  content: "Copyright";
+  background-color: #fafafa;
+  color: #333333;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  top: -1em;
+  padding: 0 1em;
+}
+
+
+.member {
+  border-top: 1px solid #ccc;
+  height: 2px;
+  text-align: center;
+  overflow: visible;
+  background-color: #333333;
+}
+.member::after {
+  content: "Member";
+  background-color: #fafafa;
+  color: #333333;
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  top: -1em;
+  padding: 0 1em;
+}
