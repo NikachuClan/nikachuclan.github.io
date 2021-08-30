@@ -89,3 +89,11 @@ hr{
   top: -1em;
   padding: 0 1em;
 }
+
+.copyright {
+  border-top: 1px solid #ccc;
+  height: 2px;
+  text-align: center;
+  overflow: visible;
+  background-color: #333333;
+}
